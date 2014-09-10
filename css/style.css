@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mysearchbutton{
+	background: url(../img/search.png) no-repeat; width:21px; height:21px; border:none;}
+	
+	
+.mynav{
+	float:right!important;}
+	
+.myimagecaption h1{
+	color:#000; font-size:100%; display:inline-block; float:right; padding:5px 10px; text-align:center;
+	}
+	
+
+
+
+.carousel-holder{margin-top: 60px!important;}
+
+body{
+	background:#292929!important;}
+	
