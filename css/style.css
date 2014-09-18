@@ -161,12 +161,72 @@ input#addtocart{
 	background:#21c2f8; color:#fff;}
 	
 #myspan2{
-	border:1px solid #666; border-bottom:none; background:#292929; color:#999; padding:5px; display:inline-block;font-family:Raleway, Arial, Helvetica, sans-serif;}
+	border:1px solid #666; border-bottom:none; background:#292929; color:#999; padding:5px; display:inline-block; font-family:Raleway, Arial, Helvetica, sans-serif;}
 	
 #myspan2:hover{
 	background:#21c2f8; color:#fff;}
+	
+/* /Product Details */
+
+
+/* Category */
+
+.categoryheader{
+	background:#343434; border:1px solid #474747; margin: 10px 0px;}
+	
+.categoryheader:nth-child(1){
+	margin-left:0px;}
+	
+.categoryheader:nth-child(4){
+	margin-left:0px;}
+
+
+.categoryheader h4{
+	font-family:Raleway, Arial, Helvetica, sans-serif; font-size:15px; color:#fff; text-align:center; padding-bottom:5px; border-bottom:1px solid #222;}
+	
+	
+/* /Category */
+	
+/* Promotion */
+
+#promotion h1{
+	font-family: 'Pacifico', cursive; color:#fff; text-align:center; text-decoration:underline; padding-bottom:10px;}	
 
 	
+#promo1 img{
+	border:5px solid #21c2f8; border-radius: 3px 3px 3px 3px;}
+	
+#promo1 img:hover{
+	transform:scale(1.07); transition:1s;}
+	
+#promo2 img{
+	border:5px solid #21c2f8; border-radius: 3px 3px 3px 3px;}
+	
+#promo2 img:hover{
+	transform:scale(1.07); transition:1s;}
+	
+#promo3 img{
+	border:5px solid #21c2f8; border-radius: 3px 3px 3px 3px;}
+	
+#promo3 img:hover{
+	transform:scale(1.07); transition:1s;}
+	
+/* /Promotion */
+
+
+/* Featured */
+
+#featured h1{
+	font-family:Tahoma, Geneva, sans-serif; color:#fff; text-align:center; text-decoration:underline; padding-top: 20px; padding-bottom:20px;}
+
+#featured p{
+	color:#D3D3D3; text-align:center; font-style:italic; font-family:Raleway, Arial, Helvetica, sans-serif;}
+
+.productname{
+	color:#fff; font-size:15px; font-family:Raleway, Arial, Helvetica, sans-serif; font-style:normal;}
+
+
+
 /*CSS For footer conctact info section */
 
 #contactinfo1 img{
