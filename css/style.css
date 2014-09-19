@@ -216,14 +216,76 @@ input#addtocart{
 
 /* Featured */
 
-#featured h1{
+.featured h1{
 	font-family:Tahoma, Geneva, sans-serif; color:#fff; text-align:center; text-decoration:underline; padding-top: 20px; padding-bottom:20px;}
+	
+.featured img:hover{
+	transform:scale(1.15); transition:1s;}
 
-#featured p{
-	color:#D3D3D3; text-align:center; font-style:italic; font-family:Raleway, Arial, Helvetica, sans-serif;}
+.star{
+	color:#21c2f8; text-align:center; }
+	
+.showcase{
+	color:#D3D3D3; text-align:center; font-style:italic; font-family:Raleway, Arial, Helvetica, sans-serif; padding-bottom:20px;}
 
 .productname{
-	color:#fff; font-size:15px; font-family:Raleway, Arial, Helvetica, sans-serif; font-style:normal;}
+	color:#fff; font-size:15px; font-family:Raleway, Arial, Helvetica, sans-serif; font-style:normal; text-align:center; padding-top:15px;}
+	
+.productprice{
+	color:#21c2f8; font-family:Raleway, Arial, Helvetica, sans-serif; text-align:center; padding:0px; font-size:13px;}
+
+
+/* /Featured */
+
+/* What our Client Say */
+
+.clients h1{
+	font-family:Tahoma, Geneva, sans-serif; color:#fff; text-align:center; text-decoration:underline; padding-top: 20px; padding-bottom:20px;}
+	
+.clients img{
+	width:120px; height:120px; border-radius:50%; margin:10px; text-align:center;}
+	
+#clientssaying{
+	 color:#fff; text-align:right; padding:10px;}
+
+
+.clients1{
+	border:1px solid #444; background:#272727;}
+	
+.clients1:hover{
+	background: #21c2f8; color:#fff;}
+	
+.clients1:hover.star {
+	color:#fff; }
+	
+.devoloper{
+	color:#fff; font-family:Raleway, Arial, Helvetica, sans-serif; font-size:12px;}
+	
+/* /What our Client Say */
+
+/* Services */
+
+.services{
+	border:1px solid #999;}
+	
+.services h5{
+	color:#fff; text-align:center; font-family:Raleway, Arial, Helvetica, sans-serif; padding-top:30px;}
+	
+.services p{
+	color:#999; font-family:Raleway, Arial, Helvetica, sans-serif; font-size:13px;}
+	
+.servicecon{
+	margin-top:40px; margin-bottom:30px;}
+	
+.truck{
+	 color:#fff; text-align:center; position: absolute; top:-25px; left:165px; background:#21c2f8; border-radius:50%;}
+	 
+.truck:hover{
+	 color:#21c2f8; background: #fff;}
+
+
+
+/* /Services */
 
 
 
